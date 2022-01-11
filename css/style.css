@@ -1,0 +1,371 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    color: #ffffff;
+}
+/* Global Class */
+.container{
+    width: 90%;
+    margin:  auto;
+}
+.global-h{
+font-size: 50px;
+font-weight: 600;
+}
+.global-p{
+font-size: 18px;
+font-weight: 300;
+}
+.global-b{
+padding: 10px;
+font-size: 22px;
+width: 230px;
+border: none;
+border-radius: 5px;
+}
+
+/* header is here */
+header{
+ float: left;   
+width: 100%;
+background: #303030;
+padding: 10px 0px;
+
+}
+.logo-part{
+width: 30%;
+float: left;
+}
+.logo-part a img{
+
+}
+.menu-part{
+width: 60%;
+float: left;
+}
+.menu-part nav{
+margin: 24px ;
+}
+.menu-part nav ul{
+
+}
+.menu-part nav ul li{
+list-style: none;
+display: inline-block;
+margin: 0px 26px;
+}
+.menu-part nav ul li a{
+text-decoration: none;
+color: white;
+}
+.search-part{
+width: 10%;
+float: left;
+}
+.cstm-icon{
+margin:  25px;
+font-size: 23px;
+color: white;
+}
+/* hero section */
+#hero{
+background: url(../img/hero-pg.gif) no-repeat center; 
+background-size: cover;
+width: 100%;
+float: left;
+color: white;
+padding: 180px 0px;
+
+}
+#hero .main-content{
+
+}
+.main-content h1{  
+font-size: 80px;
+}
+.main-content p{
+    margin: 30px 0px;
+    font-size: 20px;
+}
+.main-content a button{
+background: #eb5d12;
+}
+/* hero1 section */
+#hero1{
+background: url(../img/hero1.bg.gif)no-repeat center;
+background-size: cover;
+width: 100%;
+float: left;
+
+}
+#hero .main-content-1{
+
+}
+.main-content-1 h1{
+text-align: center;
+}
+.main-content-1 p{
+text-align: center;
+font-size: 20px;
+font-weight: 300;
+}
+.main-content-1 img{
+width: 30%;
+float: left;
+margin: 49px 12px;
+}
+/* hero2 section */
+#hero2{
+background: url(../img/hero2.bg.gif) no-repeat center;
+background-size: cover;
+width: 100%;
+float: left;
+}
+#hero2 .main-content-2{
+
+}
+.main-content-2 h1{
+text-align: center;
+}
+.main-content-2 p{
+text-align: center;
+font-size: 20px;
+font-weight: 300;
+}
+.main-content-2 img{
+width: 30%;
+float: left;
+margin: 40px 12px;
+}
+/* hero3 section */
+#hero3{
+background: url(../img/hero3-1.bg.gif) no-repeat center;
+background-size: cover;
+width: 100%;
+float: left;
+}
+#hero3 .image-part3{
+width: 48%;
+float: left;
+}
+.image-part3 img{
+
+}
+.writing-part3{
+width: 52%;
+float: left;
+padding: 180px;
+margin-top: 180px;
+}
+.writing-part3 h1{
+text-align: center;
+font-size: 50px;
+}
+.writing-part3 p{
+padding: 30px 0px;
+font-size: 20px;
+}
+.writing-part3 a{
+
+}
+.writing-part3 a button{
+background: rgb(43, 42, 42);
+}
+
+#hero4{
+background: url(../img/hero4-1.bg.gif)no-repeat center;
+background-size: cover;
+width: 100%;
+float: left;
+}
+.writing-part4{
+width: 52%;
+float: left;
+margin-top: 200px;
+padding: 130px;
+}
+.writing-part4 h1{
+text-align: center;
+}
+.writing-part4 p{
+padding: 30px 0px;
+font-size: 20px;
+}
+.writing-part4 a{
+
+}
+.writing-part4 a button{
+background: rgb(43, 42, 42);
+}
+.image-part4{
+width: 48%;
+float: left;
+}
+.image-part4 img{
+
+}
+#hero5{
+background: url(../img/hero5.bg.gif) no-repeat center;
+background-size: cover;
+width: 100%;
+float: left;
+}
+.writing-part5-1{
+text-align: center;
+margin: 100px;
+}
+.writing-part5-1 h1{
+font-size: 60px;
+padding: 14px;
+}
+.writing-part5-1 p{
+font-size: 21px;
+}
+.writing-part5-2{
+width: 100%;
+float: left;
+margin-bottom: 100px;
+}
+.counter-1{
+width: 33.33%;
+float: left;
+text-align: center;
+}
+.counter-1 h1{
+
+}
+.counter-1 p{
+
+}
+.counter-2{
+    width: 33.33%;
+    float: left;
+    text-align: center;
+}
+.counter-2 h1{
+
+}
+.counter-2 p{
+
+}
+.counter-3{
+    width: 33.33%;
+    float: left;
+    text-align: center;
+}
+.counter-3 h1{
+
+}
+.counter-3 p{
+
+}
+.writing-part5-2 h1{
+
+}
+.writing-part5-2 p{
+font-size: 35px;
+}
+#hero6{
+background: url(../img/hero6.bg.gif) no-repeat center;
+background-size: cover;
+width: 100%;
+float: left;
+}
+.content{
+padding: 380px;
+text-align: center;
+}
+.content p{
+font-size: 35px;
+}
+.content h1{
+font-size: 40px;
+margin-top: 30px;
+}
+#hero7{
+background: url(../img/hero7.bg..gif) no-repeat center;
+background-size: cover;
+width: 100%;
+float: left;
+
+}
+.content-1{
+text-align: center;
+padding: 70px;
+}
+.content-1 h1{
+font-size: 42px;
+}
+.content-1 p{
+font-size: 18px;
+padding: 25px;
+}
+.content-1  input{
+width: 250px;
+padding: 6px;
+font-size: 15px;
+color: black;
+border: none;
+}
+.content-1 a{
+
+}
+.content-1 a button{
+padding: 6px 30px;
+font-size: 15px;
+background: black;
+}
+#hero8{
+background: url(../img/hero8.bg.gif) no-repeat center;
+background-size: cover;
+width: 100%;
+float: left;
+}
+.writing-part6-1{
+width: 40%;
+float: left;
+}
+.writing-part6-1  h1{
+
+}
+.writing-part6-1 p{
+padding: 20px 0px;
+width: 50%;
+}
+.writing-part6-1 i{
+width: 29px;
+padding: 12px 0px;
+font-size: 25px;
+}
+.writing-part6-2{
+width: 20px;
+float: left;
+}
+.writing-part6-2 h1{
+
+}
+.writing-part6-2 p{
+
+}
+.writing-part6-3{
+width: 20px;
+float: left;
+}
+.writing-part6-3 h1{
+
+}
+.writing-part6-3 p{
+
+}
+.writing-part6-4{
+width: 20px;
+float: left;
+}
+.writing-part6-4 h1{
+  
+}
+.writing-part6-4 p{
+
+}
